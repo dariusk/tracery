@@ -616,6 +616,10 @@ var universalModifiers = {
         case 'h':
             return s.slice(0, s.length - 1) + "es";
 
+        // wolves, shelves, themselves, elves                                                                 
+        case 'f':                                                                                             
+            return s.slice(0, s.length - 1) + "ves";  
+
         default:
             return s + "s";
         };
